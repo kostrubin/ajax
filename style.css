@@ -1,0 +1,48 @@
+.incorrect {
+    border: 1px solid red;
+}
+
+.correct {
+    border: 1px solid greenyellow;
+}
+
+.error {
+    display: none;
+    font-size: 10pt;
+    color: red;
+}
+
+p {
+    margin: 5px 0;
+}
+
+#result {
+    margin: 0 auto;
+    width: 300px;
+}
+
+form input#submit:hover {
+    cursor: pointer;
+
+}
+
+form input#submit {
+    width: 300px;
+    background-color: #c6c6c6;
+}
+
+form input {
+    margin: 5px auto;
+    padding: 5px 0;
+    width: 298px;
+    border-radius: 3px;
+    border: 1px solid #c6c6c6;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
